@@ -14,10 +14,10 @@ for i in os.walk('/dir'):
 
 for address, dirs, files in folder:
     for file in files:
-        if f in files:
+        if search_file in files:
         	total_addresses.append(address+'/'+file)
 for i in total_addresses:
-	if f == i[-13::]:
+	if search_file == i[-13::]:
 		total.append(i)
 
 word = u"tex_which_you_need_to_look_for"
