@@ -7,10 +7,10 @@ total_addresses = []
 total = []
 text = 'you_write_text'
 word = "tex_which"
-search_file = 'wp-config.php'
+search_file = 'file'
 folder = []
    
-for i in os.walk('/home/hatter/data/www/'):
+for i in os.walk('/dir'):
     folder.append(i)
 
 for address, dirs, files in folder:
