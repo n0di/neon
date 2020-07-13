@@ -14,8 +14,8 @@ sleep(3)
 username_input = browser.find_element_by_css_selector("input[name='login']")
 password_input = browser.find_element_by_css_selector("input[name='passwd']")
 
-username_input.send_keys("amanxojayev@gmail.com")
-password_input.send_keys("flnodiryum12341")
+username_input.send_keys("email")
+password_input.send_keys("password")
 
 login_button = browser.find_element_by_xpath("//button[@type='submit']")
 login_button.click()
