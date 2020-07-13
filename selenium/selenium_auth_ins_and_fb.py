@@ -18,7 +18,7 @@ class bot:
 		sleep(3)
 
 		self.username_input = self.browser.find_element_by_css_selector("input[name='username']").send_keys("usermane")
-		self.password_input = self.browser.find_element_by_css_selector("input[name='password']").send_keys("password")
+		self.password_input = self.browser.find_element_by_css_selector("input[name='password']").send_keys("pass")
 
 		self.login_button = self.browser.find_element_by_xpath("//button[@type='submit']")
 		self.login_button.click()
